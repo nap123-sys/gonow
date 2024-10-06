@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+	"time"
 )
 
 func main() {
-	var name, ln string
 	var age int
+	var name, ln string
 	name, ln, age = "John", "Doe", 25
-	fmt.Println(name, ln, age)
+	fmt.Println(name, ln, age, time.Now())
 }
