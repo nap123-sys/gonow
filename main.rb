@@ -1,3 +1,2 @@
 hello = "Hello, World!"
-
-puts(hello)
+puts hello
